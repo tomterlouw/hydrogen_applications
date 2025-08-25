@@ -1,0 +1,18 @@
+data/archive
+data/tifs
+data/ne_110m_admin_0_countries
+data/IEA Hydrogen Production Projects Database_2024.xlsx
+data/solargis_pvpotential_countryranking_2020_data.xlsx
+results
+figs/figs_paper
+figs/pdf
+unlinked.log
+archive
+.ipynb_checkpoints
+export
+data/BF-BOF-CCS_Carina.xlsx
+data/H2-DRI_LCI.xlsx
+private_keys.py
+*.pkl
+*.pyc
+*__pycache__
