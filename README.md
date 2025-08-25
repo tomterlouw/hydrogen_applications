@@ -2,6 +2,9 @@
 
 `hydrogen_applications` is a repository that enables the quantification of the climate-effectiveness of planned hydrogen projects and applications. It uses data obtained from the International Energy Agency (IEA) and code developed during the TRANSIENCE project (see [Acknowledgements](#acknowledgements)).
 
+The code has been prepared for the following research paper:
+*Terlouw, T., Moretti, C., Harpprecht, C., Sacchi, R., McKenna, R., & Bauer, C. (2025). Global greenhouse gas emissions mitigation potential of existing and planned hydrogen projects. Nature Energy.*
+
 ## 📁 Repository Structure
 
 This repository contains the following files and folders:
@@ -39,8 +42,8 @@ This repository contains the following files and folders:
 - `mappings.py`  
   → Mappings used/shared in the different notebooks.
 
-- `figs/`  
-  → Folder containing high-quality figures from the analysis.
+- `figs/sankeys`  
+  → Folder containing high-quality Sankey figures from the analysis. The other high-quality figures can be found in the paper itself or potentially regenerated using the code.
 
 - `data/`  
   → Folder with input data, one needs to download the IEA hydrogen projects file (year 2024 used) via https://www.iea.org/data-and-statistics/data-product/hydrogen-production-and-infrastructure-projects-database. In this repository, the Excel file from the IEA is called:  
