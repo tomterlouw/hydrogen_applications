@@ -5,7 +5,7 @@
 The code has been prepared for the following research paper:
 *Terlouw, T., Moretti, C., Harpprecht, C., Sacchi, R., McKenna, R., & Bauer, C. (2025). Global greenhouse gas emissions mitigation potential of existing and planned hydrogen projects. Nature Energy.*
 
-## 📁 Repository Structure
+## Repository Structure
 
 This repository contains the following files and folders:
 
@@ -46,8 +46,9 @@ This repository contains the following files and folders:
   → Folder containing high-quality Sankey figures from the analysis. The other high-quality figures can be found in the paper itself or potentially regenerated using the code.
 
 - `data/`  
-  → Folder with input data, one needs to download the IEA hydrogen projects file (year 2024 used) via https://www.iea.org/data-and-statistics/data-product/hydrogen-production-and-infrastructure-projects-database. In this repository, the Excel file from the IEA is called:  
+  → Folder with input data, one needs to download the IEA hydrogen projects file (year 2024 used) via https://www.iea.org/data-and-statistics/data-product/hydrogen-production-and-infrastructure-projects-database. In this repository, the Excel file from the IEA (2024) is called:  
   `IEA Hydrogen Production Projects Database_2024.xlsx`
+  → Also, geospatial (.tif) files are sourced to consider variable power from renewables worldwide to build location-specific electrolytic hydrogen production activities. Solar PV data is obtained from the “Global Solar Atlas 2.0, a free, web-based application is developed and operated by the company Solargis s.r.o. on behalf of the World Bank Group, utilizing Solargis data, with funding provided by the Energy Sector Management Assistance Program (ESMAP). For additional information: https://globalsolaratlas.info”. Further, wind data is obtained from “Global Wind Atlas 3.0, a free, web-based application developed, owned and operated by the Technical University of Denmark (DTU). The Global Wind Atlas 3.0 is released in partnership with the World Bank Group, utilizing data provided by Vortex, using funding provided by the Energy Sector Management Assistance Program (ESMAP). For additional information: https://globalwindatlas.info”.
   → Note that the LCI files `H2-DRI_LCI.xlsx` and `BF-BOF-CCS_Carina.xlsx` were confidential at the time the paper was prepared, but that those LCI Excel files are now available (as such, those links should be replaced) via the following links based on the work of [Harpprecht et al. (2025)](https://pubs.rsc.org/en/content/articlelanding/2025/ee/d5ee01356a): 
     * [Code and data for publication: Future Environmental Impacts of Global Iron and Steel Production](https://zenodo.org/records/14968094).
 
@@ -56,7 +57,7 @@ Further documentation is embedded within the individual scripts. The expected ou
 
 ---
 
-## 🔧 Dependencies
+## Dependencies
 
 To run this repository or use the code, the following credentials and tools are required:
 
@@ -69,7 +70,7 @@ To run this repository or use the code, the following credentials and tools are 
 
 ---
 
-## 📄 License, Citing, and Scientific References
+## License, Citing, and Scientific References
 
 If you use this repository, the data, or any of the included code, please cite the following paper:  
 *Terlouw, T., Moretti, C., Harpprecht, C., Sacchi, R., McKenna, R., & Bauer, C. (2025). Global greenhouse gas emissions mitigation potential of existing and planned hydrogen projects. Nature Energy.*
@@ -80,20 +81,20 @@ For licensing information, see the `LICENSE` file.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome!  
 For major suggestions, collaborations, or structural changes, please contact:
 
 **Tom Terlouw**  
-📧 [tom.terlouw@psi.ch](mailto:tom.terlouw@psi.ch)
+[tom.terlouw@psi.ch](mailto:tom.terlouw@psi.ch)
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 This repository builds on several scientific contributions (see [License, citing, and scientific references](#-license-citing-and-scientific-references)) and was developed under the **TRANSIENCE** project:  
-🔗 https://www.transience.eu/
+https://www.transience.eu/
 
 It also builds upon:
 - The **`premise`** framework (Sacchi et al., 2022), which enables the modification of background LCA databases.
